@@ -87,6 +87,12 @@
     .skills-inline li:last-child::after {
       content: "";
     }
+
+    @media print {
+      .no-print {
+        display: none;
+      }
+    }
   </style>
 </head>
 <body>
@@ -130,6 +136,10 @@
       <li>ActiveRecord</li>
       <li>Git</li>
       <li>GitHub</li>
+      <li>Claude Code</li>
+      <li>LLMs</li>
+      <li>AI Agents</li>
+      <li>AI-First Development</li>
     </ul>
   </section>
 
@@ -141,38 +151,35 @@
       <p class="job-meta">Fevereiro de 2025 &ndash; Junho de 2026 &nbsp;&bull;&nbsp; Remoto</p>
       <ul>
         <li>
-          Desenvolveu integrações com APIs externas para o módulo de COMEX
+          Desenvolvi integrações com APIs externas para o módulo de COMEX
           (comércio exterior), conectando o ERP a sistemas aduaneiros e
           parceiros logísticos via REST.
         </li>
         <li>
-          Implementou e manteve sistema interno de cobranças e gestão
+          Implementei e mantive sistema interno de cobranças e gestão
           financeira, cobrindo fluxo de faturamento, controle de inadimplência
           e régua de cobrança automatizada.
         </li>
         <li>
-          Desenvolveu funcionalidades do módulo de CRM, incluindo gestão de
+          Desenvolvi funcionalidades do módulo de CRM, incluindo gestão de
           carteira de clientes e automação de relacionamento dentro do ERP.
         </li>
         <li>
-          Realizou refatoração de código legado e otimização de queries SQL,
+          Realizei refatoração de código legado e otimização de queries SQL,
           reduzindo débito técnico e melhorando a manutenibilidade do sistema.
         </li>
-      </ul>
-    </article>
-
-    <article>
-      <h3>D&rsquo;ultimahora | Sócio Desenvolvedor</h3>
-      <p class="job-meta">Dezembro de 2024 &ndash; Presente &nbsp;&bull;&nbsp; São Lourenço do Sul, RS</p>
-      <ul>
         <li>
-          Co-fundou e lidera o desenvolvimento back-end de marketplace de
-          revenda de ingressos construído em Ruby on Rails, conectando
-          vendedores e compradores em plataforma peer-to-peer.
+          Adotei fluxo de desenvolvimento AI-first com Claude Code no dia a
+          dia, aplicando a ferramenta em refatorações, escrita de testes e
+          análise de código legado para acelerar entregas.
         </li>
         <li>
-          Projetou e implementou a arquitetura do sistema, incluindo gestão de
-          listagens, fluxo de transações e controle de usuários.
+          Apoiei o desenvolvimento de agentes de IA (AI agents) aplicados a
+          fluxos do ERP, colaborando na integração com LLMs no back-end.
+        </li>
+        <li>
+          Construí automações internas apoiadas em IA para tarefas repetitivas
+          do time de desenvolvimento, reduzindo trabalho manual no dia a dia.
         </li>
       </ul>
     </article>
@@ -182,29 +189,40 @@
       <p class="job-meta">Setembro de 2023 &ndash; Agosto de 2024 &nbsp;&bull;&nbsp; Pelotas, RS</p>
       <ul>
         <li>
-          Prestou suporte técnico especializado na emissão e renovação de
+          Prestei suporte técnico especializado na emissão e renovação de
           certificados digitais A1 e A3, atendendo clientes pessoa física e
           jurídica.
         </li>
         <li>
-          Solucionou problemas técnicos relacionados à infraestrutura de chave
+          Solucionei problemas técnicos relacionados à infraestrutura de chave
           pública (PKI) e configuração de certificados em sistemas operacionais
           e navegadores.
         </li>
       </ul>
     </article>
 
+  </section>
+
+  <section>
+    <h2>Projetos</h2>
+
     <article>
-      <h3>WTech | Suporte Técnico</h3>
-      <p class="job-meta">Fevereiro de 2022 &ndash; Agosto de 2023 &nbsp;&bull;&nbsp; São Lourenço do Sul, RS</p>
+      <h3>D&rsquo;ultimahora | Marketplace de Revenda de Ingressos</h3>
+      <p class="job-meta">Dezembro de 2024 &ndash; Presente &nbsp;&bull;&nbsp; São Lourenço do Sul, RS</p>
       <ul>
         <li>
-          Instalou e manteve sistemas comerciais e equipamentos de hardware para
-          clientes da região, garantindo continuidade operacional.
+          Co-fundei e lidero o desenvolvimento do marketplace de revenda de
+          ingressos construído em Ruby on Rails, conectando vendedores e
+          compradores em plataforma peer-to-peer.
         </li>
         <li>
-          Atuou na emissão e renovação de certificados digitais para
-          estabelecimentos comerciais.
+          Projetei e implementei a arquitetura do sistema, incluindo gestão de
+          listagens, fluxo de transações e controle de usuários.
+        </li>
+        <li>
+          Integrei LLM ao fluxo de publicação de anúncios para moderação
+          automatizada de conteúdo e triagem de indícios de fraude, sinalizando
+          listagens suspeitas antes da revisão manual.
         </li>
       </ul>
     </article>
@@ -219,8 +237,10 @@
     </article>
   </section>
 
-  <p style="margin-top: 24px; font-size: 10pt; text-align: center;">
+  <p class="no-print" style="margin-top: 24px; font-size: 10pt; text-align: center;">
     <a href="Lucas Borges da Silva - Desenvolvedor Back-end - cv.pdf" download>Download PDF</a>
+    &nbsp;&bull;&nbsp;
+    <a href="en/">English version</a>
   </p>
 
 </body>
